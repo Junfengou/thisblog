@@ -18,7 +18,7 @@ def post_detail(request, pk):
 
 
 def post_new(request):
-    def post_new(request):
+    #def post_new(request):
         if request.method == "POST":
             form = PostForm(request.POST)
             if form.is_valid():
